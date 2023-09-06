@@ -5,7 +5,7 @@
     <link>https://bizinvoke.github.io/blog/posts/</link>
     <description>Recent content in Posts on Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Tue, 09 Aug 2022 15:38:30 +0800</lastBuildDate><atom:link href="https://bizinvoke.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Puppet - Getting Started</title>
@@ -22,7 +22,8 @@
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://bizinvoke.github.io/blog/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <description>Welcome to StackEdit!Hi! I&amp;rsquo;m your first Markdown file in StackEdit. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the file explorer on the left corner of the navigation bar.
+FilesStackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible offline!</description>
     </item>
     
     <item>

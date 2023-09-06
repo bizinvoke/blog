@@ -17,7 +17,13 @@
     <loc>https://bizinvoke.github.io/blog/posts/getting-started/</loc>
     <lastmod>2022-08-09T15:38:30+08:00</lastmod>
   </url><url>
+    <loc>https://bizinvoke.github.io/blog/series/</loc>
+    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
+  </url><url>
     <loc>https://bizinvoke.github.io/blog/tags/</loc>
+    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
+  </url><url>
+    <loc>https://bizinvoke.github.io/blog/series/themes-guide/</loc>
     <lastmod>2022-08-09T15:38:30+08:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/categories/</loc>
@@ -69,9 +75,5 @@
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/archive/</loc>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/series/</loc>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/series/themes-guide/</loc>
   </url>
 </urlset>
