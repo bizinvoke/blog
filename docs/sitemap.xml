@@ -2,78 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bizinvoke.github.io/blog/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bizinvoke.github.io/blog/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/tags/documentation/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/tags/guide/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/posts/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/posts/getting-started/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/series/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/tags/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/series/themes-guide/</loc>
-    <lastmod>2022-08-09T15:38:30+08:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/blog/categories/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/tags/css/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/tags/html/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/tags/markdown/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bizinvoke.github.io/blog/posts/markdown-syntax/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
+    <loc>https://bizinvoke.github.io/blog/post/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bizinvoke.github.io/blog/categories/syntax/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
+    <loc>https://bizinvoke.github.io/blog/post/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bizinvoke.github.io/blog/categories/themes/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
+    <loc>https://bizinvoke.github.io/blog/series/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bizinvoke.github.io/blog/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bizinvoke.github.io/blog/series/themes-guide/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bizinvoke.github.io/blog/posts/rich-content/</loc>
+    <loc>https://bizinvoke.github.io/blog/post/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bizinvoke.github.io/blog/posts/placeholder-text/</loc>
+    <loc>https://bizinvoke.github.io/blog/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bizinvoke.github.io/blog/posts/math-typesetting/</loc>
+    <loc>https://bizinvoke.github.io/blog/post/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bizinvoke.github.io/blog/posts/emoji-support/</loc>
+    <loc>https://bizinvoke.github.io/blog/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/blog/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bizinvoke.github.io/blog/archive/</loc>
+    <loc>https://bizinvoke.github.io/blog/tags/index/</loc>
   </url>
 </urlset>
