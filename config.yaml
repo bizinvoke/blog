@@ -1,4 +1,4 @@
-baseURL: "https://bizinvoke.github.io/blog/"
+baseURL: "https://bizinvoke.github.io/home/"
 theme: "up-business-theme"
 languageCode: "en-us"
 publishDir: "docs"
