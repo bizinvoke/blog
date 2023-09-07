@@ -1,9 +1,9 @@
 baseURL: "https://bizinvoke.github.io/home/"
-theme: "up-business-theme"
+theme: "bizInvoke"
 languageCode: "en-us"
 publishDir: "docs"
 
-title: "Up Business"
+title: "BizInvoke"
 
 hasCJKLanguage: true
 enableInlineShortcodes: true
