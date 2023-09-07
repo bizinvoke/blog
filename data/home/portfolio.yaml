@@ -3,9 +3,9 @@ id: "portfolio"
 
 content:
   - image: "images/portfolio-ecommerce.png"
-    pretitle: "Portfolio Service"
-    title: "We developed an eCommerce website"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    pretitle: "私たちは、"
+    title: "どんなサービスを提供できますか？"
+    text: "BizInvokeは、革新的なテクノロジーを活用したマルチクラウド環境の導入と運用に焦点を当て、幅広い顧客ニーズに対応する包括的なサポートサービスを提供しています。"
 
     buttons: 
       - label: "See live"
@@ -15,9 +15,9 @@ content:
         url: "#"
 
   - image: "images/portfolio-ecommerce.png"
-    pretitle: "Portfolio Service"
-    title: "We developed an eCommerce website"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    pretitle: "貴社は、"
+    title: "なぜBizInvokeを選びますか？"
+    text: "当社は、IT分野で長年にわたり蓄積された経験と専門知識を活かし、幅広いサービスを提供しています。私たちの専門家チームはシームレスに連携し、クライアントのビジネス開発をサポートするワンストップのサポートを提供しています。"
 
     buttons: 
       - label: "See live"
@@ -27,9 +27,9 @@ content:
         url: "#"
 
   - image: "images/portfolio-ecommerce.png"
-    pretitle: "Portfolio Service"
-    title: "We developed an eCommerce website"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    pretitle: "一押し！"
+    title: "BizInvokeの強みは何ですか？"
+    text: "BizInvokeでは、さまざまな分野の専門家が集まり、マルチクラウド環境の導入や構築、ブロックチェーンソリューション、システムのアウトソーシング開発、データ収集とタギングサービスなど、さまざまなサービスを提供しています。"
 
     buttons: 
       - label: "See live"

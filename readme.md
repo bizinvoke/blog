@@ -21,6 +21,9 @@ https://themes.gohugo.io/themes/up-business-theme/
 Demo:
 https://writeonlyhugo.gitlab.io/up-business-demo/
 
+Docs:
+https://gohugo.io/documentation/
+
 ### 主页
 
 https://bizinvoke.github.io/home/

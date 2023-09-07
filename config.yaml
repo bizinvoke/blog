@@ -13,8 +13,8 @@ enableEmoji: true
 summaryLength: 20
 
 params:
-  title: "Up Business"
-  description: "We specialize in providing services to desing websites, applications, build and maintain business for customers."
+  title: "株式会社BizInvoke"
+  description: "私たちは、多くのデザイナーや開発者が揃った専門のエンジニアチームです。もし私たちのサービスが必要なプロジェクトがありましたら、お気軽にご連絡ください。私たちは喜んでお手伝いいたします。"
   images:
     - "images/hero-image.png"
 
@@ -32,61 +32,60 @@ params:
     twitter: "#"
 
   location:
-    - "3891 Ranchview Dr. Richardson, California 62639"
-    - "4517 Washington Ave. Manchester, Kentucky 39495"
+    - "〒247-0056 神奈川県鎌倉市 大船６丁目１２ー１５"
 
   contact:
-    - "trungkienspktnd@gamail.com"
-    - "207.555.0119"
+    - "info@bizinvoke.com"
+    - "神奈川, 日本"
 
-  copyright: "© 2022 Up Business All Rights Reserved"
+  copyright: "© 2023 BizInvoke, Inc."
 
 menus:
   main:
-    - name: "Home"
+    - name: "ホーム"
       url: "/#hero"
       weight: 1
 
-    - name: "How we work"
-      url: "/#"
+    - name: "当社について"
+      url: "/#portfolio"
       weight: 2
 
-    - name: "Our team"
-      url: "/#"
+    - name: "サービス"
+      url: "/#services"
       weight: 3
 
-    - name: "Pricing"
+    - name: "会社情報"
       url: "/#"
       weight: 4
 
-    - name: "Blog"
+    - name: "ブログ"
       url: "/blog"
       weight: 5
 
   buttons:
-    - name: "Book a call"
+    - name: "お問合わせ"
       url: "/#"
       weight: 5
       pre: "btn btn-primary text-light"
 
   footer:
-    - name: "Home"
+    - name: "ホーム"
       url: "/#hero"
       weight: 1
 
-    - name: "How we work"
-      url: "/#"
+    - name: "当社について"
+      url: "/#portfolio"
       weight: 2
 
-    - name: "Our team"
-      url: "/#"
+    - name: "サービス"
+      url: "/#services"
       weight: 3
 
-    - name: "Pricing"
+    - name: "会社情報"
       url: "/#"
       weight: 4
 
-    - name: "Blog"
+    - name: "ブログ"
       url: "/blog"
       weight: 5
 

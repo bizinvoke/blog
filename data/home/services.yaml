@@ -2,26 +2,27 @@ enabled: true
 id: "services"
 
 content:
-  title: "Our main services"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  title: "サービス"
+  text: "私たちは最新のテクノロジーと最もコスト効果の高いリソースを活用した包括的なITソリューションを提供しています。"
   cards:
     - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+      title: "クラウドセットアップ"
+      text: "AWSやGCPなどのクラウドサービスを利用したインフラストラクチャのセットアップと設定を行います。"
       button:
         label: "Learn more"
         url: "#"
 
     - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+      title: "ソフトウェア開発"
+      text: "ソフトウェア開発プロセスの任意の段階でのアウトソーシング開発またはエンジニア派遣を提供しています。"
       button:
         label: "Learn more"
         url: "#"
 
     - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+      title: "Webマーケティング"
+      text: "データ収集、分析、変換、可視化; SEOソリューション、ウェブサイト改善; GPT APIの活用、文章生成、質問応答などの自動化。"
       button:
         label: "Learn more"
         url: "#"
+
