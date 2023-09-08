@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on BizInvoke</title>
+    <title>ブログ on BizInvoke</title>
     <link>https://bizinvoke.github.io/home/post/</link>
-    <description>Recent content in Posts on BizInvoke</description>
+    <description>Recent content in ブログ on BizInvoke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bizinvoke.github.io/home/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bizinvoke.github.io/home/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SEOとは？企業はなぜSEOを行うべきなのか？</title>
+      <link>https://bizinvoke.github.io/home/post/what-is-seo/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bizinvoke.github.io/home/post/what-is-seo/</guid>
+      <description>デジタル化の波に乗る中で、企業はオンライ</description>
+    </item>
+    
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://bizinvoke.github.io/home/post/markdown-syntax/</link>

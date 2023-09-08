@@ -2,11 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bizinvoke.github.io/home/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bizinvoke.github.io/home/tags/seo/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bizinvoke.github.io/home/post/what-is-seo/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bizinvoke.github.io/home/tags/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bizinvoke.github.io/home/post/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bizinvoke.github.io/home/tags/%E6%A4%9C%E7%B4%A2%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E6%9C%80%E9%81%A9%E5%8C%96/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bizinvoke.github.io/home/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/home/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/home/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
@@ -20,13 +35,7 @@
     <loc>https://bizinvoke.github.io/home/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bizinvoke.github.io/home/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bizinvoke.github.io/home/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bizinvoke.github.io/home/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bizinvoke.github.io/home/series/themes-guide/</loc>
