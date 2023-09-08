@@ -8,6 +8,11 @@ title: "BizInvoke"
 hasCJKLanguage: true
 enableInlineShortcodes: true
 enableEmoji: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 # googleAnalytics: ""
 
 summaryLength: 20
