@@ -1,6 +1,6 @@
 +++
 author = "BizInvoke, Inc."
-images = ["images/posts/what-is-seo.png"]
+images = ["images/blog/what-is-seo.png"]
 title = "SEOとは？企業はなぜSEOを行うべきなのか？"
 date = "2023-09-08"
 description = "SEOとは具体的に何であり、なぜ現代の企業がそれを生命線として考えるべきなのか？この記事でそれらの疑問に深く触れてみましょう。"
