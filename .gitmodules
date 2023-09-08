@@ -4,6 +4,3 @@
 [submodule "themes/puppet"]
 	path = themes/puppet
 	url = https://github.com/roninro/hugo-theme-puppet.git
-[submodule "themes/up-business-theme"]
-	path = themes/up-business-theme
-	url = https://gitlab.com/writeonlyhugo/up-business-theme.git
