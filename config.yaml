@@ -20,10 +20,6 @@ summaryLength: 20
 params:
   title: "株式会社BizInvoke"
   description: "私たちは、多くのデザイナーや開発者が揃った専門のエンジニアチームです。もし私たちのサービスが必要なプロジェクトがありましたら、お気軽にご連絡ください。私たちは喜んでお手伝いいたします。"
-  images:
-    - "images/hero-image.png"
-
-  logo: "arrow-up.png"
 
   favicons:
     themeColor: "#FFFFFF"
