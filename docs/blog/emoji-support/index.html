@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   
   <title>BizInvoke  | Emoji Support </title>
 
@@ -47,22 +47,24 @@
   
   
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://bizinvoke.github.io/home/images/hero-image.png"/>
-
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Emoji Support"/>
 <meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
 
 <meta itemprop="name" content="Emoji Support">
 <meta itemprop="description" content="Guide to emoji usage in Hugo"><meta itemprop="datePublished" content="2019-03-05T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2019-03-05T00:00:00+00:00" />
-<meta itemprop="wordCount" content="129"><meta itemprop="image" content="https://bizinvoke.github.io/home/images/hero-image.png"/>
+<meta itemprop="wordCount" content="132">
 <meta itemprop="keywords" content="emoji," />
 
 
 
   
-  <style type="text/css" media="all">/*!
+  <link rel="stylesheet" href="/home/sass/main.css">
+
+<link rel="stylesheet" href="/home/zoomjs/zoom.min.css">
+
+<style type="text/css" media="all">/*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -161,7 +163,7 @@
   
   </head>
 
-  <body><nav class="navbar navbar-expand-xl navbar-light bg-light py-4">
+<body><nav class="navbar navbar-expand-xl navbar-light bg-light py-4">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="https://bizinvoke.github.io/home/">
       
@@ -208,41 +210,37 @@
   </div>
 </nav>
 
-  <section class="section blog-single py-5">
-    <div class="container">
-      <div class="row justify-content-center pb-4">
-        <div class="col-12">
-          
-            <h2 class="display-5 fw-bold text-center text-primary pb-3">Emoji Support</h2>
-          
 
 
+<article>
+  <div class="container">
+    <div class="row">
 
-        </div>
-      </div>
-      <div class="row pb-5">
-        <div class="col-12 d-flex justify-content-center">
-          <div class="blog-content fs-6 text-black-62">
-            <div class="aspect-ratio-62-5">
-              
-              
-  <img class="" src="https://bizinvoke.github.io/home/images/hero-image.png" alt="images/hero-image.png" width="1772" height="1773">
-
-
-              
-            </div>
-            <br>
-            <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<p>The <a href="https://gohugo.io/functions/emojify/" target="_blank"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes" target="_blank">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/" target="_blank">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>🙈</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>🙉</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>🙊</code></span></p>
 <br>
-<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<p>The <a href="http://www.emoji-cheat-sheet.com/" target="_blank">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
 <hr>
 <p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>.emoji {
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>.emoji {
 </span></span><span style="display:flex;"><span>  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></td></tr></table>
+</div>
+</div>
 
 <style>
 .emojify {
@@ -257,13 +255,85 @@
   }
 }
 </style>
-          </div>
-        </div>
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/home/about/" data-toggle="tooltip" data-placement="top" title="About">
+              Previous<br>
+              <span>About</span>
+            </a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/home/blog/math-typesetting/" data-toggle="tooltip" data-placement="top" title="Math Typesetting">
+              Next<br>
+              <span>Math Typesetting</span>
+            </a>
+          </li>
+          
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        
+        
+
+
+
+
+
+
       </div>
-      <div class="row pb-5">
+
+      
+      
+      
+      
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        
+        
+        <section>
+  
+  
+  <hr class="hidden-sm hidden-xs">
+  
+  <h5>FEATURED TAGS</h5>
+  <div class="tags">
+    
+    <a href="/home/tags/css/">css</a>
+    
+    <a href="/home/tags/emoji/">emoji</a>
+    
+    <a href="/home/tags/html/">html</a>
+    
+    <a href="/home/tags/index/">index</a>
+    
+    <a href="/home/tags/markdown/">markdown</a>
+    
+    <a href="/home/tags/privacy/">privacy</a>
+    
+    <a href="/home/tags/seo/">SEO</a>
+    
+    <a href="/home/tags/shortcodes/">shortcodes</a>
+    
+    <a href="/home/tags/text/">text</a>
+    
+    <a href="/home/tags/%E6%A4%9C%E7%B4%A2%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E6%9C%80%E9%81%A9%E5%8C%96/">検索エンジン最適化</a>
+    
+  </div>
+</section>
+
       </div>
     </div>
-  </section>
+  </div>
+</article>
+
 <footer class="shared footer bg-blue-light py-5">
   <div class="container">
     <div class="row pb-5">

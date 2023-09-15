@@ -4,37 +4,37 @@
     <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
       col-xs-12 postlist-container">
       <!-- Article List -->
-<!--      <div class="mini-post-list">-->
-<!--        {{ range .Pages.GroupByDate "2006" }}-->
+      <div class="mini-post-list">
+        {{ range .Pages.GroupByDate "2006" }}
 
-<!--        <section class="">-->
-<!--          <span class="fa listing-seperator">-->
-<!--            <span class="tag-text">{{ .Key }}</span></span>-->
-<!--            {{ range .Pages }}-->
-<!--            {{ .Render "li" }}-->
-<!--            {{ end }}-->
-<!--        </section>-->
+        <section class="">
+          <span class="fa listing-seperator">
+            <span class="tag-text">{{ .Key }}</span></span>
+            {{ range .Pages }}
+            {{ .Render "li" }}
+            {{ end }}
+        </section>
+        {{ end }}
+      </div>
+<!--      {{ $paginator := .Paginate .Site.RegularPages }}-->
+<!--      {{ range $paginator.Pages }}-->
+<!--      {{ .Render "summary" }}-->
+<!--      {{ end }}-->
+
+<!--      {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}-->
+<!--      <ul class="pager">-->
+<!--        {{ if $paginator.HasPrev }}-->
+<!--        <li class="previous">-->
+<!--          <a href="{{ .Paginator.Prev.URL }}">&larr; Newer Posts</a>-->
+<!--        </li>-->
 <!--        {{ end }}-->
-<!--      </div>-->
-      {{ $paginator := .Paginate .Site.RegularPages }}
-      {{ range $paginator.Pages }}
-      {{ .Render "summary" }}
-      {{ end }}
-
-      {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-      <ul class="pager">
-        {{ if $paginator.HasPrev }}
-        <li class="previous">
-          <a href="{{ .Paginator.Prev.URL }}">&larr; Newer Posts</a>
-        </li>
-        {{ end }}
-        {{ if $paginator.HasNext }}
-        <li class="next">
-          <a href="{{ .Paginator.Next.URL }}">Older Posts &rarr;</a>
-        </li>
-        {{ end }}
-      </ul>
-      {{ end }}
+<!--        {{ if $paginator.HasNext }}-->
+<!--        <li class="next">-->
+<!--          <a href="{{ .Paginator.Next.URL }}">Older Posts &rarr;</a>-->
+<!--        </li>-->
+<!--        {{ end }}-->
+<!--      </ul>-->
+<!--      {{ end }}-->
     </div>
 
     <!-- Sidebar Container -->
