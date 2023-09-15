@@ -1,31 +1,73 @@
 {{ define "main" }}
-  <section class="section blog-single py-5">
-    <div class="container">
-      <div class="row justify-content-center pb-4">
-        <div class="col-12">
-          {{ with .Title }}
-            <h2 class="display-5 fw-bold text-center text-primary pb-3">{{ . }}</h2>
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+
+      <!-- Post Container -->
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              post-container">
+        {{ .Content }}
+
+        <hr style="visibility: hidden;" />
+        <ul class="pager">
+          {{ with .Prev }}
+          <li class="previous">
+            <a href="{{ .RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .Title }}">
+              Previous<br>
+              <span>{{ .Title }}</span>
+            </a>
+          </li>
           {{ end }}
-<!--          {{ with .Params.description }}-->
-<!--            <p class="text-black-61 text-center pb-3">{{ . }}</p>-->
-<!--          {{ end }}-->
+          {{ with .Next }}
+          <li class="next">
+            <a href="{{ .RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .Title }}">
+              Next<br>
+              <span>{{ .Title }}</span>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        <hr style="visibility: hidden;" />
+
+        <!-- comments -->
+        {{ partial "shared/comments.html" . }}
+
+      </div>
+
+      <!-- Side Catalog Container -->
+      {{ $toc := .Scratch.Get "toc" }}
+      {{ if $toc }}
+      <div class="
+              col-lg-2 col-lg-offset-0
+              visible-lg-block
+              sidebar-container
+              catalog-container">
+        <div class="side-catalog">
+          <hr class="hidden-sm hidden-xs">
+          <h5>
+            <a class="catalog-toggle" href="#">CATALOG</a>
+          </h5>
+          <ul class="catalog-body"></ul>
         </div>
       </div>
-      <div class="row pb-5">
-        <div class="col-12 d-flex justify-content-center">
-          <div class="blog-content fs-6 text-black-62">
-            <div class="aspect-ratio-62-5">
-              {{ with ( partial "utilities/get-featured-image.html" . ) }}
-              {{ partial "utilities/card-img-top" . }}
-              {{ end }}
-            </div>
-            <br>
-            {{ .Content }}
-          </div>
-        </div>
-      </div>
-      <div class="row pb-5">
+      {{ end }}
+      <!-- Sidebar Container -->
+      <div class="
+              col-lg-8 col-lg-offset-2
+              col-md-10 col-md-offset-1
+              sidebar-container">
+
+        <!-- Featured Tags -->
+        {{ .Scratch.Set "bottom" true }}
+        {{ partial "shared/featured-tags.html" . }}
+
       </div>
     </div>
-  </section>
+  </div>
+</article>
+
 {{ end }}

@@ -5,6 +5,7 @@ publishDir: "docs"
 
 title: "BizInvoke"
 
+paginate: 5
 hasCJKLanguage: true
 enableInlineShortcodes: true
 enableEmoji: true
@@ -12,6 +13,13 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    noClasses: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+    style: "dracula"
 
 # googleAnalytics: ""
 
@@ -20,6 +28,11 @@ summaryLength: 20
 params:
   title: "株式会社BizInvoke"
   description: "私たちは、多くのデザイナーや開発者が揃った専門のエンジニアチームです。もし私たちのサービスが必要なプロジェクトがありましたら、お気軽にご連絡ください。私たちは喜んでお手伝いいたします。"
+
+  sidebar:
+    enable: true
+    gravatarEmail: ""
+    bio: "a personal website"
 
   favicons:
     themeColor: "#FFFFFF"
@@ -93,3 +106,6 @@ menus:
 taxonomies:
   series: "series"
   tags: "tags"
+  category: "categories"
+
+
