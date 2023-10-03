@@ -1,28 +1,59 @@
-<section class="section services py-5" id="services">
+<section id="service" class="service-section img-bg pt-100 pb-100 mt-150">
   <div class="container">
-    <div class="row justify-content-center pb-5">
-      <div class="col-12 col-xl-6">
-        {{ with .content.title }}
-          <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
-        {{ end }}
-        {{ with .content.text }}
-          <p class="text-black-61 text-center pb-3">{{ . }}</p>
-        {{ end }}
+    <div class="row justify-content-center">
+      <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-10">
+        <div class="section-title text-center mb-50">
+          <h1 class="wow fadeInUp" data-wow-delay=.2s>サービス</h1>
+          <p class="wow fadeInUp" data-wow-delay=.4s>私たちは最新のテクノロジーと最もコスト効果の高いリソースを活用した包括的なITソリューションを提供しています。</p>
+        </div>
       </div>
     </div>
-    <div class="row g-5">
-      {{ range .content.cards }}
-        <div class="col-12 col-xl-4">
-          <div class="card bg-blue-16 border-0 border-radius-34 p-4">
-            {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
-            <div class="card-body text-center">
-              {{ with .title }}<h4 class="card-title text-center text-primary pb-4">{{ . }}</h4>{{ end }}
-              {{ with .text }}<p class="card-text text-black-61 pb-4">{{ . }}</p>{{ end }}
-              {{ with .button }}<a class="btn btn-outline-primary px-4" href="{{ .url }}">{{ .label }}</a>{{ end }}
-            </div>
+
+    <div class="row">
+      <div class="col-xl-3 col-md-6">
+        <div class="single-service">
+          <div class="icon color-1">
+            <i class="lni lni-vector"></i>
+          </div>
+          <div class="content">
+            <h3>クラウドセットアップ</h3>
+            <p>AWSやGCPなどのクラウドサービスを利用したインフラストラクチャのセットアップと設定を行います。</p>
           </div>
         </div>
-      {{ end }}
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="single-service">
+          <div class="icon color-2">
+            <i class="lni lni-code-alt"></i>
+          </div>
+          <div class="content">
+            <h3>ソフトウェア開発</h3>
+            <p>ソフトウェア開発プロセスの任意の段階でのアウトソーシング開発またはエンジニア派遣を提供しています。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="single-service">
+          <div class="icon color-3">
+            <i class="lni lni-layers"></i>
+          </div>
+          <div class="content">
+            <h3>データ管理と分析</h3>
+            <p>データ収集、分析、変換、可視化; SEOソリューション、ウェブサイト改善; GPT APIの活用、文章生成、質問応答などの自動化。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="single-service">
+          <div class="icon color-4">
+            <i class="lni lni-pallet"></i>
+          </div>
+          <div class="content">
+            <h3>ビジネス自動化</h3>
+            <p>ソフトウェアツールを組み合わせてワークフローを効率化し、効率を向上させ、コスト削減を実現するサービスを提供しています。 </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
