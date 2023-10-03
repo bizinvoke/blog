@@ -2,7 +2,7 @@
   position: relative;
   z-index: 1;
   padding: 160px 0 120px;
-  background-image: url(../../images/welcome-bg.jpg);
+  background-image: url('{{ site.BaseURL }}images/welcome-bg.jpg');
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;

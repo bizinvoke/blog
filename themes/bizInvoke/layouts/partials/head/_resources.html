@@ -15,5 +15,16 @@
 {{ $zoom_css := resources.Get "zoomjs/zoom.css" | resources.Minify -}}
 <link rel="stylesheet" href="{{ $zoom_css.RelPermalink }}">
 
+{{ $animate_css := resources.Get "css/animate.css" | resources.Minify -}}
+<link rel="stylesheet" href="{{ $animate_css.RelPermalink }}">
+{{ $bootstrap_css := resources.Get "css/bootstrap-5.0.0-beta2.min.css" | resources.Minify -}}
+<link rel="stylesheet" href="{{ $bootstrap_css.RelPermalink }}">
+{{ $tiny_slider_css := resources.Get "css/tiny-slider.css" | resources.Minify -}}
+<link rel="stylesheet" href="{{ $tiny_slider_css.RelPermalink }}">
+{{ $main_css := resources.Get "css/main.css" | resources.Minify -}}
+<link rel="stylesheet" href="{{ $main_css.RelPermalink }}">
+{{ $line_icon_css := resources.Get "css/LineIcons.2.0.css" | resources.Minify -}}
+<link rel="stylesheet" href="{{ $line_icon_css.RelPermalink }}">
+
 <style type="text/css" media="all">{{ $sharedSCSS.Content | safeCSS }}</style>
 <script>{{- $sharedJS.Content | safeJS -}}</script>

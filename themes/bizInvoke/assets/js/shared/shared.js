@@ -8,6 +8,7 @@ import "./_count-up.min";
 import "./_main";
 import "./_polifill";
 import "./_tiny-slider";
+import "./_bootstrap-5.0.0-beta2.min";
 
 import "../sections/hero";
 import "../sections/brands";
